@@ -23,7 +23,7 @@ a {
 
 .Login {
     display: flex;
-    height: calc(100vh - 200px);
+    height: calc(100vh - 155px);
     flex-wrap: wrap;
 }
 
@@ -150,10 +150,9 @@ hr {
 #bottom {
     margin: 0 0 0 0;
     justify-content: center;
-    height: 10px;
-    border-top: 1px solid #999999;
     text-align: center;
     font-size: 12px;
+    background-color: #FFFFFF;
 }
 
 p {
