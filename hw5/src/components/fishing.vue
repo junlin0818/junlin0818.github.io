@@ -148,7 +148,7 @@ a1 {
   font-size: 25px;
 }
 /*各類按鈕寬度設定為100%，使其接近表格的大小*/
-#option, #login-box, .forget-account, #bottom{
+#login-box, .forget-account, #bottom{
   display: flex;
   width: 100%;
 }
