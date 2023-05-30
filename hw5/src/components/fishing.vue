@@ -15,10 +15,7 @@
                     <i id="eye" class="material-icons">visibility</i>
                 </span>
         </div>
-        <div id="option">
-          <ul class="check-box"></ul>
           <div id="login-box"><a1 id="btn-login" href="https://www.facebook.com/">登入</a1></div>
-        </div>
       </form>
 
       <div class="forget-account">
